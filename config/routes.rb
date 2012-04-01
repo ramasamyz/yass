@@ -1,4 +1,10 @@
 Yass::Application.routes.draw do
+  get "home/features"
+
+  get "home/about"
+
+  get "home/help"
+
     get "home/main"
 
   devise_for :users

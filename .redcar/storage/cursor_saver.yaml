@@ -1,0 +1,27 @@
+--- 
+cursor_positions: 
+  - :path: app/controllers/home_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-28 01:00:58 +05:30
+  - :path: Rakefile
+    :cursor_offset: 0
+    :timestamp: 2012-03-19 23:53:03 +05:30
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-19 23:53:03 +05:30
+  - :path: redcar.out
+    :cursor_offset: 0
+    :timestamp: 2012-04-01 21:55:48 +05:30
+  - :path: README.md
+    :cursor_offset: 1180
+    :timestamp: 2012-03-27 23:26:08 +05:30
+  - :path: .gitignore
+    :cursor_offset: 0
+    :timestamp: 2012-03-27 23:05:49 +05:30
+  - :path: config.ru
+    :cursor_offset: 154
+    :timestamp: 2012-03-19 23:53:03 +05:30
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2012-03-28 00:31:34 +05:30
+files_to_retain: 0

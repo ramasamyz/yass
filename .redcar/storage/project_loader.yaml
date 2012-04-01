@@ -1,0 +1,4 @@
+--- 
+open_files: 
+  - Gemfile
+  - config.ru
