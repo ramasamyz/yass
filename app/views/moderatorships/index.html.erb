@@ -1,0 +1,29 @@
+<h1>Listing moderatorships</h1>
+
+<table>
+  <tr>
+    <th>Forum</th>
+    <th>User</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @moderatorships.each do |moderatorship| %>
+  <tr>
+    <td><%= moderatorship.forum_id %></td>
+    <td><%= moderatorship.user_id %></td>
+    <td><%= moderatorship.created_at %></td>
+    <td><%= moderatorship.updated_at %></td>
+    <td><%= link_to 'Show', moderatorship %></td>
+    <td><%= link_to 'Edit', edit_moderatorship_path(moderatorship) %></td>
+    <td><%= link_to 'Destroy', moderatorship, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Moderatorship', new_moderatorship_path %>

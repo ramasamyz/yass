@@ -1,12 +1,6 @@
 --- 
 cursor_positions: 
-  - :path: app/controllers/home_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-03-28 01:00:58 +05:30
   - :path: Rakefile
-    :cursor_offset: 0
-    :timestamp: 2012-03-19 23:53:03 +05:30
-  - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-03-19 23:53:03 +05:30
   - :path: redcar.out
@@ -21,7 +15,91 @@ cursor_positions:
   - :path: config.ru
     :cursor_offset: 154
     :timestamp: 2012-03-19 23:53:03 +05:30
+  - :path: app/controllers/forums_controller.rb
+    :cursor_offset: 887
+    :timestamp: 2012-04-04 00:03:28 +05:30
+  - :path: spec/views/forums/index.html.erb_spec.rb
+    :cursor_offset: 529
+    :timestamp: 2012-04-03 22:58:15 +05:30
+  - :path: spec/views/forums/show.html.erb_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 22:58:15 +05:30
+  - :path: app/assets/javascripts/home.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-04-01 22:22:35 +05:30
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 52
+    :timestamp: 2012-04-02 23:52:57 +05:30
+  - :path: app/helpers/home_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-01 22:22:35 +05:30
+  - :path: app/assets/javascripts/menu.js
+    :cursor_offset: 46
+    :timestamp: 2012-04-02 23:48:26 +05:30
+  - :path: app/assets/stylesheets/menu.css
+    :cursor_offset: 156
+    :timestamp: 2012-04-02 23:53:46 +05:30
+  - :path: app/views/layouts/_menu.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 23:30:55 +05:30
   - :path: Gemfile
     :cursor_offset: 0
-    :timestamp: 2012-03-28 00:31:34 +05:30
+    :timestamp: 2012-04-04 00:09:08 +05:30
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 643
+    :timestamp: 2012-04-02 23:45:32 +05:30
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 22:37:47 +05:30
+  - :path: app/controllers/home_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-01 22:22:35 +05:30
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-28 00:38:55 +05:30
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 23:52:25 +05:30
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 23:27:21 +05:30
+  - :path: app/views/home/about.html.erb
+    :cursor_offset: 19
+    :timestamp: 2012-04-01 23:12:03 +05:30
+  - :path: app/views/home/help.html.erb
+    :cursor_offset: 131
+    :timestamp: 2012-04-01 23:38:11 +05:30
+  - :path: app/views/home/features.html.erb
+    :cursor_offset: 28
+    :timestamp: 2012-04-01 23:12:21 +05:30
+  - :path: spec/requests/homes_spec.rb
+    :cursor_offset: 404
+    :timestamp: 2012-04-01 23:43:09 +05:30
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-04 00:07:58 +05:30
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-04-04 22:14:39 +05:30
+  - :path: config/routes.rb
+    :cursor_offset: 96
+    :timestamp: 2012-04-05 22:38:43 +05:30
+  - :path: app/assets/images/clearbits/bg_rounded.gif
+    :cursor_offset: 0
+    :timestamp: 2012-02-14 23:58:18 +05:30
+  - :path: app/views/devise/sessions/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-04-03 23:40:32 +05:30
+  - :path: app/models/post.rb
+    :cursor_offset: 164
+    :timestamp: 2012-04-05 22:21:16 +05:30
+  - :path: app/models/topic.rb
+    :cursor_offset: 287
+    :timestamp: 2012-04-05 22:21:36 +05:30
+  - :path: app/models/forum.rb
+    :cursor_offset: 39
+    :timestamp: 2012-04-05 21:48:27 +05:30
+  - :path: app/views/forums/index.html.erb
+    :cursor_offset: 33
+    :timestamp: 2012-04-05 21:42:29 +05:30
 files_to_retain: 0

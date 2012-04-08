@@ -1,0 +1,43 @@
+<h1>Listing topics</h1>
+
+<table>
+  <tr>
+    <th>Forum</th>
+    <th>User</th>
+    <th>Title</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+    <th>Hits</th>
+    <th>Sticky</th>
+    <th>Posts count</th>
+    <th>Last post</th>
+    <th>Last updated at</th>
+    <th>Last user</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @topics.each do |topic| %>
+  <tr>
+    <td><%= topic.forum_id %></td>
+    <td><%= topic.user_id %></td>
+    <td><%= topic.title %></td>
+    <td><%= topic.created_at %></td>
+    <td><%= topic.updated_at %></td>
+    <td><%= topic.hits %></td>
+    <td><%= topic.sticky %></td>
+    <td><%= topic.posts_count %></td>
+    <td><%= topic.last_post_id %></td>
+    <td><%= topic.last_updated_at %></td>
+    <td><%= topic.last_user_id %></td>
+    <td><%= link_to 'Show', topic %></td>
+    <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
+    <td><%= link_to 'Destroy', topic, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Topic', new_topic_path %>

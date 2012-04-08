@@ -1,0 +1,29 @@
+<h1>Listing monitorships</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Topic</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @monitorships.each do |monitorship| %>
+  <tr>
+    <td><%= monitorship.user_id %></td>
+    <td><%= monitorship.topic_id %></td>
+    <td><%= monitorship.created_at %></td>
+    <td><%= monitorship.updated_at %></td>
+    <td><%= link_to 'Show', monitorship %></td>
+    <td><%= link_to 'Edit', edit_monitorship_path(monitorship) %></td>
+    <td><%= link_to 'Destroy', monitorship, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Monitorship', new_monitorship_path %>

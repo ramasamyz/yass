@@ -1,40 +1,442 @@
-1333303993
+1333864127
 About Page	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	describe "About Page" do
+AddActiveToMonitorship	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404162901_add_active_to_monitorship.rb	class AddActiveToMonitorship 
+AddActiveToUser	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404164408_add_active_to_user.rb	class AddActiveToUser 
+AddAdminToUser	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404163726_add_admin_to_user.rb	class AddAdminToUser 
+AddLockedToTopic	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404163405_add_locked_to_topic.rb	class AddLockedToTopic 
 Application	/home/Repo/PlayGround/ROR/yass/config/application.rb	  class Application 
 ApplicationController	/home/Repo/PlayGround/ROR/yass/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	module ApplicationHelper
+Article	/home/Repo/PlayGround/ROR/yass/app/models/article.rb	class Article 
+Articles	/home/Repo/PlayGround/ROR/yass/spec/requests/articles_spec.rb	describe "Articles" do
+ArticlesController	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	class ArticlesController 
+ArticlesHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/articles_helper.rb	module ArticlesHelper
 BrowsingTest	/home/Repo/PlayGround/ROR/yass/test/performance/browsing_test.rb	class BrowsingTest 
+CreateArticles	/home/Repo/PlayGround/ROR/yass/db/migrate/20120402183807_create_articles.rb	class CreateArticles 
+CreateForums	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403172815_create_forums.rb	class CreateForums 
+CreateModeratorships	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173310_create_moderatorships.rb	class CreateModeratorships 
+CreateMonitorships	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173429_create_monitorships.rb	class CreateMonitorships 
+CreatePosts	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403174029_create_posts.rb	class CreatePosts 
+CreateTopics	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173749_create_topics.rb	class CreateTopics 
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "DELETE destroy" do
 DeviseCreateUsers	/home/Repo/PlayGround/ROR/yass/db/migrate/20120319183223_devise_create_users.rb	class DeviseCreateUsers 
 Feature page	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	describe "Feature page" do
+Forum	/home/Repo/PlayGround/ROR/yass/app/models/forum.rb	class Forum 
+Forums	/home/Repo/PlayGround/ROR/yass/spec/requests/forums_spec.rb	describe "Forums" do
+ForumsController	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	class ForumsController 
+ForumsHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/forums_helper.rb	module ForumsHelper
 GET 'about'	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	describe "GET 'about'" do
 GET 'features'	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	describe "GET 'features'" do
 GET 'help'	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	describe "GET 'help'" do
+GET /articles	/home/Repo/PlayGround/ROR/yass/spec/requests/articles_spec.rb	describe "GET /articles" do
+GET /forums	/home/Repo/PlayGround/ROR/yass/spec/requests/forums_spec.rb	describe "GET /forums" do
+GET /moderatorships	/home/Repo/PlayGround/ROR/yass/spec/requests/moderatorships_spec.rb	describe "GET /moderatorships" do
+GET /monitorships	/home/Repo/PlayGround/ROR/yass/spec/requests/monitorships_spec.rb	describe "GET /monitorships" do
+GET /posts	/home/Repo/PlayGround/ROR/yass/spec/requests/posts_spec.rb	describe "GET /posts" do
+GET /topics	/home/Repo/PlayGround/ROR/yass/spec/requests/topics_spec.rb	describe "GET /topics" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "GET edit" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "GET edit" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "GET edit" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "GET edit" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "GET edit" do
+GET edit	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "GET edit" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "GET index" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "GET index" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "GET index" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "GET index" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "GET index" do
+GET index	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "GET index" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "GET new" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "GET new" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "GET new" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "GET new" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "GET new" do
+GET new	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "GET new" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "GET show" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "GET show" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "GET show" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "GET show" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "GET show" do
+GET show	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "GET show" do
 Help page	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	describe "Help page" do
 Home	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	describe "Home" do
 HomeController	/home/Repo/PlayGround/ROR/yass/app/controllers/home_controller.rb	class HomeController 
 HomeControllerTest	/home/Repo/PlayGround/ROR/yass/test/functional/home_controller_test.rb	class HomeControllerTest 
 HomeHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/home_helper.rb	module HomeHelper
 HomeHelperTest	/home/Repo/PlayGround/ROR/yass/test/unit/helpers/home_helper_test.rb	class HomeHelperTest 
+Moderatorship	/home/Repo/PlayGround/ROR/yass/app/models/moderatorship.rb	class Moderatorship 
+Moderatorships	/home/Repo/PlayGround/ROR/yass/spec/requests/moderatorships_spec.rb	describe "Moderatorships" do
+ModeratorshipsController	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	class ModeratorshipsController 
+ModeratorshipsHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/moderatorships_helper.rb	module ModeratorshipsHelper
+Monitorship	/home/Repo/PlayGround/ROR/yass/app/models/monitorship.rb	class Monitorship 
+Monitorships	/home/Repo/PlayGround/ROR/yass/spec/requests/monitorships_spec.rb	describe "Monitorships" do
+MonitorshipsController	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	class MonitorshipsController 
+MonitorshipsHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/monitorships_helper.rb	module MonitorshipsHelper
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "POST create" do
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "POST create" do
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "POST create" do
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "POST create" do
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "POST create" do
+POST create	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "POST create" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "PUT update" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "PUT update" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "PUT update" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "PUT update" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "PUT update" do
+PUT update	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "PUT update" do
+Post	/home/Repo/PlayGround/ROR/yass/app/models/post.rb	class Post 
+Posts	/home/Repo/PlayGround/ROR/yass/spec/requests/posts_spec.rb	describe "Posts" do
+PostsController	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	class PostsController 
+PostsHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/posts_helper.rb	module PostsHelper
 TestCase	/home/Repo/PlayGround/ROR/yass/test/test_helper.rb	class ActiveSupport::TestCase
+Topic	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	class Topic 
+Topics	/home/Repo/PlayGround/ROR/yass/spec/requests/topics_spec.rb	describe "Topics" do
+TopicsController	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	class TopicsController 
+TopicsHelper	/home/Repo/PlayGround/ROR/yass/app/helpers/topics_helper.rb	module TopicsHelper
 User	/home/Repo/PlayGround/ROR/yass/app/models/user.rb	class User 
 UserTest	/home/Repo/PlayGround/ROR/yass/test/unit/user_test.rb	class UserTest 
 Yass	/home/Repo/PlayGround/ROR/yass/config/application.rb	module Yass
 about	/home/Repo/PlayGround/ROR/yass/app/controllers/home_controller.rb	  def about
+admin_signed_in?	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	def admin_signed_in?
+ajax_spinner_for	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	   def ajax_spinner_for(id, spinner="spinner.gif")
+articles/edit	/home/Repo/PlayGround/ROR/yass/spec/views/articles/edit.html.erb_spec.rb	describe "articles/edit" do
+articles/index	/home/Repo/PlayGround/ROR/yass/spec/views/articles/index.html.erb_spec.rb	describe "articles/index" do
+articles/new	/home/Repo/PlayGround/ROR/yass/spec/views/articles/new.html.erb_spec.rb	describe "articles/new" do
+articles/show	/home/Repo/PlayGround/ROR/yass/spec/views/articles/show.html.erb_spec.rb	describe "articles/show" do
+assigns a new article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns a new article as @article" do
+assigns a new forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns a new forum as @forum" do
+assigns a new moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns a new moderatorship as @moderatorship" do
+assigns a new monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns a new monitorship as @monitorship" do
+assigns a new post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns a new post as @post" do
+assigns a new topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns a new topic as @topic" do
+assigns a newly created article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns a newly created article as @article" do
+assigns a newly created but unsaved article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns a newly created but unsaved article as @article" do
+assigns a newly created but unsaved forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns a newly created but unsaved forum as @forum" do
+assigns a newly created but unsaved moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns a newly created but unsaved moderatorship as @moderatorship" do
+assigns a newly created but unsaved monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns a newly created but unsaved monitorship as @monitorship" do
+assigns a newly created but unsaved post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns a newly created but unsaved post as @post" do
+assigns a newly created but unsaved topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns a newly created but unsaved topic as @topic" do
+assigns a newly created forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns a newly created forum as @forum" do
+assigns a newly created moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns a newly created moderatorship as @moderatorship" do
+assigns a newly created monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns a newly created monitorship as @monitorship" do
+assigns a newly created post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns a newly created post as @post" do
+assigns a newly created topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns a newly created topic as @topic" do
+assigns all articles as @articles	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns all articles as @articles" do
+assigns all forums as @forums	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns all forums as @forums" do
+assigns all moderatorships as @moderatorships	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns all moderatorships as @moderatorships" do
+assigns all monitorships as @monitorships	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns all monitorships as @monitorships" do
+assigns all posts as @posts	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns all posts as @posts" do
+assigns all topics as @topics	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns all topics as @topics" do
+assigns the article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns the article as @article" do
+assigns the forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns the forum as @forum" do
+assigns the moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns the moderatorship as @moderatorship" do
+assigns the monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns the monitorship as @monitorship" do
+assigns the post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns the post as @post" do
+assigns the requested article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns the requested article as @article" do
+assigns the requested article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns the requested article as @article" do
+assigns the requested article as @article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "assigns the requested article as @article" do
+assigns the requested forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns the requested forum as @forum" do
+assigns the requested forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns the requested forum as @forum" do
+assigns the requested forum as @forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "assigns the requested forum as @forum" do
+assigns the requested moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns the requested moderatorship as @moderatorship" do
+assigns the requested moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns the requested moderatorship as @moderatorship" do
+assigns the requested moderatorship as @moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "assigns the requested moderatorship as @moderatorship" do
+assigns the requested monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns the requested monitorship as @monitorship" do
+assigns the requested monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns the requested monitorship as @monitorship" do
+assigns the requested monitorship as @monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "assigns the requested monitorship as @monitorship" do
+assigns the requested post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns the requested post as @post" do
+assigns the requested post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns the requested post as @post" do
+assigns the requested post as @post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "assigns the requested post as @post" do
+assigns the requested topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns the requested topic as @topic" do
+assigns the requested topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns the requested topic as @topic" do
+assigns the requested topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns the requested topic as @topic" do
+assigns the topic as @topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "assigns the topic as @topic" do
+avatar_for	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	    def avatar_for(user, size=32)
+body	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	attr_accessor :body
 change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120319183223_devise_create_users.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120402183807_create_articles.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403172815_create_forums.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403174029_create_posts.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173429_create_monitorships.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173749_create_topics.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120403173310_create_moderatorships.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404162901_add_active_to_monitorship.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404163405_add_locked_to_topic.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404163726_add_admin_to_user.rb	  def change
+change	/home/Repo/PlayGround/ROR/yass/db/migrate/20120404164408_add_active_to_user.rb	  def change
 concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/home_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/articles_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/moderatorships_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/monitorships_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/forums_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/topics_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/Repo/PlayGround/ROR/yass/spec/helpers/posts_helper_spec.rb	it "concats two strings with spaces" do
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def create
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def create
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def create
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def create
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def create
+create	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def create
+create_initial_post	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	def create_initial_post
+creates a new Article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "creates a new Article" do
+creates a new Forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "creates a new Forum" do
+creates a new Moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "creates a new Moderatorship" do
+creates a new Monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "creates a new Monitorship" do
+creates a new Post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "creates a new Post" do
+creates a new Topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "creates a new Topic" do
+current_page	/home/Repo/PlayGround/ROR/yass/app/controllers/application_controller.rb	  def current_page
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def destroy
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def destroy
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def destroy
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def destroy
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def destroy
+destroy	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def destroy
+destroys the requested article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "destroys the requested article" do
+destroys the requested forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "destroys the requested forum" do
+destroys the requested moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "destroys the requested moderatorship" do
+destroys the requested monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "destroys the requested monitorship" do
+destroys the requested post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "destroys the requested post" do
+destroys the requested topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "destroys the requested topic" do
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def edit
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def edit
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def edit
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def edit
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def edit
+edit	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def edit
 features	/home/Repo/PlayGround/ROR/yass/app/controllers/home_controller.rb	  def features
+feed_icon_tag	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	  def feed_icon_tag(title, url)
+find_forum	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	    def find_forum
+find_parents	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	   def find_parents
+forums/edit	/home/Repo/PlayGround/ROR/yass/spec/views/forums/edit.html.erb_spec.rb	describe "forums/edit" do
+forums/index	/home/Repo/PlayGround/ROR/yass/spec/views/forums/index.html.erb_spec.rb	describe "forums/index" do
+forums/new	/home/Repo/PlayGround/ROR/yass/spec/views/forums/new.html.erb_spec.rb	describe "forums/new" do
+forums/show	/home/Repo/PlayGround/ROR/yass/spec/views/forums/show.html.erb_spec.rb	describe "forums/show" do
 help	/home/Repo/PlayGround/ROR/yass/app/controllers/home_controller.rb	  def help
 home/about.html.erb	/home/Repo/PlayGround/ROR/yass/spec/views/home/about.html.erb_spec.rb	describe "home/about.html.erb" do
 home/features.html.erb	/home/Repo/PlayGround/ROR/yass/spec/views/home/features.html.erb_spec.rb	describe "home/features.html.erb" do
 home/help.html.erb	/home/Repo/PlayGround/ROR/yass/spec/views/home/help.html.erb_spec.rb	describe "home/help.html.erb" do
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def index
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def index
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def index
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def index
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def index
+index	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def index
+last_active	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	  def last_active
+last_active	/home/Repo/PlayGround/ROR/yass/app/helpers/forums_helper.rb	  def last_active
+last_page	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	def last_page
+moderatable	/home/Repo/PlayGround/ROR/yass/app/models/user.rb	    def moderatable
+moderator_of?	/home/Repo/PlayGround/ROR/yass/app/models/user.rb	  def moderator_of?(forum)
+moderatorships/edit	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/edit.html.erb_spec.rb	describe "moderatorships/edit" do
+moderatorships/index	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/index.html.erb_spec.rb	describe "moderatorships/index" do
+moderatorships/new	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/new.html.erb_spec.rb	describe "moderatorships/new" do
+moderatorships/show	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/show.html.erb_spec.rb	describe "moderatorships/show" do
+monitorships/edit	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/edit.html.erb_spec.rb	describe "monitorships/edit" do
+monitorships/index	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/index.html.erb_spec.rb	describe "monitorships/index" do
+monitorships/new	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/new.html.erb_spec.rb	describe "monitorships/new" do
+monitorships/show	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/show.html.erb_spec.rb	describe "monitorships/show" do
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def new
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def new
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def new
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def new
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def new
+new	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def new
+paged?	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	def paged?
+paged?	/home/Repo/PlayGround/ROR/yass/app/models/post.rb	  def paged?
+posts/edit	/home/Repo/PlayGround/ROR/yass/spec/views/posts/edit.html.erb_spec.rb	describe "posts/edit" do
+posts/index	/home/Repo/PlayGround/ROR/yass/spec/views/posts/index.html.erb_spec.rb	describe "posts/index" do
+posts/new	/home/Repo/PlayGround/ROR/yass/spec/views/posts/new.html.erb_spec.rb	describe "posts/new" do
+posts/show	/home/Repo/PlayGround/ROR/yass/spec/views/posts/show.html.erb_spec.rb	describe "posts/show" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "re-renders the 'new' template" do
+recent_forum_activity	/home/Repo/PlayGround/ROR/yass/app/helpers/forums_helper.rb	  def recent_forum_activity(forum)
+recent_topic_activity	/home/Repo/PlayGround/ROR/yass/app/helpers/forums_helper.rb	    def recent_topic_activity(topic)
+redirects to the article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "redirects to the article" do
+redirects to the articles list	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "redirects to the articles list" do
+redirects to the created article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "redirects to the created article" do
+redirects to the created forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "redirects to the created forum" do
+redirects to the created moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "redirects to the created moderatorship" do
+redirects to the created monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "redirects to the created monitorship" do
+redirects to the created post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "redirects to the created post" do
+redirects to the created topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "redirects to the created topic" do
+redirects to the forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "redirects to the forum" do
+redirects to the forums list	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "redirects to the forums list" do
+redirects to the moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "redirects to the moderatorship" do
+redirects to the moderatorships list	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "redirects to the moderatorships list" do
+redirects to the monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "redirects to the monitorship" do
+redirects to the monitorships list	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "redirects to the monitorships list" do
+redirects to the post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "redirects to the post" do
+redirects to the posts list	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "redirects to the posts list" do
+redirects to the topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "redirects to the topic" do
+redirects to the topics list	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "redirects to the topics list" do
+renders a list of articles	/home/Repo/PlayGround/ROR/yass/spec/views/articles/index.html.erb_spec.rb	it "renders a list of articles" do
+renders a list of forums	/home/Repo/PlayGround/ROR/yass/spec/views/forums/index.html.erb_spec.rb	it "renders a list of forums" do
+renders a list of moderatorships	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/index.html.erb_spec.rb	it "renders a list of moderatorships" do
+renders a list of monitorships	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/index.html.erb_spec.rb	it "renders a list of monitorships" do
+renders a list of posts	/home/Repo/PlayGround/ROR/yass/spec/views/posts/index.html.erb_spec.rb	it "renders a list of posts" do
+renders a list of topics	/home/Repo/PlayGround/ROR/yass/spec/views/topics/index.html.erb_spec.rb	it "renders a list of topics" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/articles/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/posts/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/forums/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/topics/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders new article form	/home/Repo/PlayGround/ROR/yass/spec/views/articles/new.html.erb_spec.rb	it "renders new article form" do
+renders new forum form	/home/Repo/PlayGround/ROR/yass/spec/views/forums/new.html.erb_spec.rb	it "renders new forum form" do
+renders new moderatorship form	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/new.html.erb_spec.rb	it "renders new moderatorship form" do
+renders new monitorship form	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/new.html.erb_spec.rb	it "renders new monitorship form" do
+renders new post form	/home/Repo/PlayGround/ROR/yass/spec/views/posts/new.html.erb_spec.rb	it "renders new post form" do
+renders new topic form	/home/Repo/PlayGround/ROR/yass/spec/views/topics/new.html.erb_spec.rb	it "renders new topic form" do
+renders the edit article form	/home/Repo/PlayGround/ROR/yass/spec/views/articles/edit.html.erb_spec.rb	it "renders the edit article form" do
+renders the edit forum form	/home/Repo/PlayGround/ROR/yass/spec/views/forums/edit.html.erb_spec.rb	it "renders the edit forum form" do
+renders the edit moderatorship form	/home/Repo/PlayGround/ROR/yass/spec/views/moderatorships/edit.html.erb_spec.rb	it "renders the edit moderatorship form" do
+renders the edit monitorship form	/home/Repo/PlayGround/ROR/yass/spec/views/monitorships/edit.html.erb_spec.rb	it "renders the edit monitorship form" do
+renders the edit post form	/home/Repo/PlayGround/ROR/yass/spec/views/posts/edit.html.erb_spec.rb	it "renders the edit post form" do
+renders the edit topic form	/home/Repo/PlayGround/ROR/yass/spec/views/topics/edit.html.erb_spec.rb	it "renders the edit topic form" do
 returns http success	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	it "returns http success" do
 returns http success	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	it "returns http success" do
 returns http success	/home/Repo/PlayGround/ROR/yass/spec/controllers/home_controller_spec.rb	it "returns http success" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #create" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #destroy" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #edit" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #index" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #new" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #show" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	it "routes to #update" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/articles_routing_spec.rb	describe "routing" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/topics_routing_spec.rb	describe "routing" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/forums_routing_spec.rb	describe "routing" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/posts_routing_spec.rb	describe "routing" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/moderatorships_routing_spec.rb	describe "routing" do
+routing	/home/Repo/PlayGround/ROR/yass/spec/routing/monitorships_routing_spec.rb	describe "routing" do
+set_default_attributes	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	def set_default_attributes
 should have the content 'About Us'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the content 'About Us'" do
 should have the content 'Awesome'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the content 'Awesome'" do
 should have the content 'How to'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the content 'How to'" do
 should have the title 'About Us'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the title 'About Us'" do
 should have the title 'Features'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the title 'Features'" do
 should have the title 'Help'	/home/Repo/PlayGround/ROR/yass/spec/requests/homes_spec.rb	it "should have the title 'Help'" do
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def show
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def show
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def show
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def show
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def show
+show	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def show
 string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/home_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/articles_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/moderatorships_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/monitorships_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/forums_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/topics_helper_spec.rb	describe "string concat" do
+string concat	/home/Repo/PlayGround/ROR/yass/spec/helpers/posts_helper_spec.rb	describe "string concat" do
 test_homepage	/home/Repo/PlayGround/ROR/yass/test/performance/browsing_test.rb	  def test_homepage
+topic_title_link	/home/Repo/PlayGround/ROR/yass/app/helpers/application_helper.rb	   def topic_title_link(topic, options) 
+topics/edit	/home/Repo/PlayGround/ROR/yass/spec/views/topics/edit.html.erb_spec.rb	describe "topics/edit" do
+topics/index	/home/Repo/PlayGround/ROR/yass/spec/views/topics/index.html.erb_spec.rb	describe "topics/index" do
+topics/new	/home/Repo/PlayGround/ROR/yass/spec/views/topics/new.html.erb_spec.rb	describe "topics/new" do
+topics/show	/home/Repo/PlayGround/ROR/yass/spec/views/topics/show.html.erb_spec.rb	describe "topics/show" do
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/articles_controller.rb	  def update
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/moderatorships_controller.rb	  def update
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/monitorships_controller.rb	  def update
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/forums_controller.rb	  def update
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/topics_controller.rb	  def update
+update	/home/Repo/PlayGround/ROR/yass/app/controllers/posts_controller.rb	  def update
+update_cached_fields	/home/Repo/PlayGround/ROR/yass/app/models/post.rb	  def update_cached_fields
+update_cached_post_fields	/home/Repo/PlayGround/ROR/yass/app/models/topic.rb	def update_cached_post_fields 
+updates the requested article	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	it "updates the requested article" do
+updates the requested forum	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	it "updates the requested forum" do
+updates the requested moderatorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	it "updates the requested moderatorship" do
+updates the requested monitorship	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	it "updates the requested monitorship" do
+updates the requested post	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	it "updates the requested post" do
+updates the requested topic	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	it "updates the requested topic" do
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	  def valid_attributes
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	  def valid_attributes
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	  def valid_attributes
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	  def valid_attributes
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	  def valid_attributes
+valid_attributes	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	  def valid_attributes
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	  def valid_session
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	  def valid_session
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	  def valid_session
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	  def valid_session
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	  def valid_session
+valid_session	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	  def valid_session
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "with invalid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/articles_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/moderatorships_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/posts_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/forums_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/monitorships_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "with valid params" do
+with valid params	/home/Repo/PlayGround/ROR/yass/spec/controllers/topics_controller_spec.rb	describe "with valid params" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/articles_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/forums_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/posts_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/moderatorships_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/topics_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/Repo/PlayGround/ROR/yass/spec/requests/monitorships_spec.rb	it "works! (now write some real specs)" do

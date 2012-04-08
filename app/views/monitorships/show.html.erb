@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @monitorship.user_id %>
+</p>
+
+<p>
+  <b>Topic:</b>
+  <%= @monitorship.topic_id %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @monitorship.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @monitorship.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_monitorship_path(@monitorship) %> |
+<%= link_to 'Back', monitorships_path %>

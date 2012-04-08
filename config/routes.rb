@@ -1,13 +1,37 @@
 Yass::Application.routes.draw do
+ 
+
+  get "users/show"
+
+  resources :monitorships
+
+  resources :moderatorships
+
+   #
+  
+  resources :forums do
+      resources :topics do
+           resources :posts
+            resource :monitorship
+      end
+      resources :posts
+    end
+  
+  resources :articles
+
   get "home/features"
 
   get "home/about"
 
   get "home/help"
-
-    get "home/main"
-
+  
   devise_for :users
+  
+  get 'users/:id' =>'users#show' ,:as => :user
+
+  
+  
+  #resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -58,7 +82,7 @@ Yass::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'home#main'    
+   root :to => 'home#features'    
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,14 +1,14 @@
 Redcar 0.13 ( i686-linux )
 Redcar 0.13 ( java )
 
-(java:7675): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+(java:2823): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
 
-(java:7675): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+(java:2823): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
 
-(java:7675): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+(java:2823): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
 
-(java:7675): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+(java:2823): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
 [:new, "."]
-#<Redcar::Project::DirMirror:0x97e111 @path="/home/Repo/PlayGround/ROR/yass", @changed=true>
-#<Redcar::Tree:0x1b9cdfc @tree_controller=#<Redcar::Project::DirController:0x1829097>, @tree_mirror=#<Redcar::Project::DirMirror:0x97e111 @path="/home/Repo/PlayGround/ROR/yass", @changed=true>>
+#<Redcar::Project::DirMirror:0xd6dec @path="/home/Repo/PlayGround/ROR/yass", @changed=true>
+#<Redcar::Tree:0xbb6d85 @tree_controller=#<Redcar::Project::DirController:0x1133f58>, @tree_mirror=#<Redcar::Project::DirMirror:0xd6dec @path="/home/Repo/PlayGround/ROR/yass", @changed=true>>
 <Project /home/Repo/PlayGround/ROR/yass>

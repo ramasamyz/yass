@@ -1,0 +1,52 @@
+<%= form_for ([:forum,@topic]) do |f| %>
+  <% if @topic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@topic.errors.count, "error") %> prohibited this topic from being saved:</h2>
+
+      <ul>
+      <% @topic.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :created_at %><br />
+    <%= f.datetime_select :created_at %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_at %><br />
+    <%= f.datetime_select :updated_at %>
+  </div>
+  <div class="field">
+    <%= f.label :hits %><br />
+    <%= f.number_field :hits %>
+  </div>
+  <div class="field">
+    <%= f.label :sticky %><br />
+    <%= f.number_field :sticky %>
+  </div>
+  <div class="field">
+    <%= f.label :posts_count %><br />
+    <%= f.text_field :posts_count %>
+  </div>
+  <div class="field">
+    <%= f.label :last_post_id %><br />
+    <%= f.number_field :last_post_id %>
+  </div>
+  <div class="field">
+    <%= f.label :last_updated_at %><br />
+    <%= f.datetime_select :last_updated_at %>
+  </div>
+  <div class="field">
+    <%= f.label :last_user_id %><br />
+    <%= f.number_field :last_user_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,105 @@
+<h1>Listing forums</h1>
+<%if false%>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Topics count</th>
+    <th>Posts count</th>
+    <th>Description html</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @forums.each do |forum| %>
+  <tr>
+    <td><%= forum.name %></td>
+    <td><%= forum.description %></td>
+    <td><%= forum.topics_count %></td>
+    <td><%= forum.posts_count %></td>
+    <td><%= forum.description_html %></td>
+    <td><%= link_to 'Show', forum %></td>
+    <td><%= link_to 'Edit', edit_forum_path(forum) %></td>
+    <td><%= link_to 'Destroy', forum, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Forum', new_forum_path %>
+<%end%>
+
+<h1 style="margin-top:0;"><%= t 'txt.forums', :default => 'Forums' %></h1>
+<p class="subtitle">
+  <%#= feed_icon_tag t('txt.recent_posts', :default => "Recent Posts"), posts_path(:format => 'atom') %>
+  <%#= t 'txt.count_topics', :count => current_site.topics.size, :num => number_with_delimiter(current_site.topics.size) %>,
+  <%#= t 'txt.count_posts', :count => current_site.posts.size, :num => number_with_delimiter(current_site.posts.size) %>
+</p>
+
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="70%" colspan="3"><%= t 'txt.forum', :default => 'Forum' %></th>
+    <th class="la" width="30%" colspan="1"><%= t 'txt.latest_post', :default => 'Last Post' %></th>
+  </tr>
+<% for forum in @forums do %>
+  <tr class="forum" id="forum_<%= forum.id %>_row">
+    <td class="vat c1">
+    
+      <% if recent_forum_activity(forum) %>
+      <%= image_tag "clearbits/comment.gif", :class => "icon green", :title => t('txt.recent_activity', :default => 'Recent activity') %>
+      <% else %>
+      <%= image_tag "clearbits/comment.gif", :class => "icon grey", :title => t('txt.no_recent_activity', :default => 'No recent activity') %>
+      <% end %>
+    </td>
+    <td class="c2 vat">
+      <%= link_to forum.name, forum_path(forum), :class => "title" %>
+      <div class="posts">
+     <%= pluralize forum.topics.size, 'Topics' %>
+     <%= pluralize forum.posts.size, 'Posts' %> 
+      </div>
+      <p class="desc"><%= forum.description %></p>
+    </td>
+    <td class="c3">
+      <%= link_to t('txt.edit', :default => 'Edit'), edit_forum_path(forum), :class => "tiny", :rel => "directory", :style => "float:right" if admin_signed_in? %>
+    </td>
+
+    <td class="inv lp">
+      <% if forum.recent_post %>
+        <%= I18n.t 'txt.post_age', :when => time_ago_in_words(forum.recent_post.created_at), :default => "posted %{when} ago" %><br />
+        <strong><%= I18n.t 'txt.by_user', :default => 'by %{user}', :user => forum.recent_post.user.email %></strong>
+        <span>(<%= link_to I18n.t('txt.view', :default => 'view'), forum_topic_path(forum, forum.recent_post.topic, :page => forum.recent_post.topic.last_page, :anchor => dom_id(forum.recent_post)) %>)</span>
+      <% end %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<p>
+  <%#= link_to t('txt.show_recent_posts', :default => 'Show recent posts'), posts_path %>
+</p>
+<%if false%>
+<% if (online_users = User.online).length > 0 %>
+<div class="stats">
+  <div class="users">
+    <%= I18n.t('txt.users_online', :default => 'Users online') %>: <%= (online_users.map { |u| link_to content_tag(:strong, u.email), user_path(u) } * ", ").html_safe %><br />
+  </div>
+</div>
+<% end %>
+<%end%>
+
+<% content_for :right do %>
+
+  <h5><%= t 'txt.sidebar.beast_title', :default => 'Forum for Freedom?' %></h5>
+  
+  <p>
+    <%= t 'txt.sidebar.beast_desc', :default => "This sexy little thing was created by master zen sammy from ghetto in nowhere" %>
+  </p>
+  
+  <% if admin_signed_in? %>
+    <h6><%= t 'txt.admin.title', :default => 'Admin' %></h6>
+    <p><%= link_to t('txt.admin.create_new_forum', :default => 'Create New Forum'), new_forum_path, :class => "utility" %></p>
+  <% end %>
+
+<% end %>

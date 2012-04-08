@@ -1,4 +1,22 @@
 --- 
 open_files: 
+  - db/schema.rb
+  - app/controllers/application_controller.rb
+  - spec/requests/homes_spec.rb
+  - app/views/home/features.html.erb
+  - app/views/home/help.html.erb
+  - app/views/home/about.html.erb
+  - app/views/layouts/application.html.erb
+  - app/helpers/application_helper.rb
+  - spec/spec_helper.rb
+  - config/routes.rb
+  - app/controllers/home_controller.rb
+  - app/assets/stylesheets/application.css
+  - app/assets/javascripts/application.js
   - Gemfile
-  - config.ru
+  - app/views/layouts/_menu.html.erb
+  - app/assets/stylesheets/menu.css
+  - app/assets/javascripts/menu.js
+  - app/helpers/home_helper.rb
+  - app/views/layouts/_header.html.erb
+  - app/assets/javascripts/home.js.coffee

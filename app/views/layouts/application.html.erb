@@ -3,12 +3,44 @@
 <head>
   <title>Yet Another Academic Site  | <%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "menu", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "menu" %>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    "display", :media => "all" %>
+  <%= stylesheet_link_tag    "captcha", :media => "all" %>
+  <%= javascript_include_tag "application"  %>
+  <%= javascript_include_tag "prototype"  %>
+  <%= javascript_include_tag "effects"  %>
+  <%= javascript_include_tag "lowpro"  %>
+  <%= javascript_include_tag "rails"  %>
 </head>
 <body>
+  <%=render "layouts/header"%>
 
-<%= yield %>
+  <div id="container">
+    <div id="content">
+      <%#= flash_messages %>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <ul class="hmenu">
+        <%= render 'devise/menu/registration_items' %>
+        <%= render 'devise/menu/login_items' %>
+      </ul>
+      <%= yield %>
+    </div>
+
+    <div id="right">
+      <%= yield(:right) %>
+    </div>
+
+    <br style="clear:both;" />
+  </div>
+
+  <div id="footer">
+    <%#= render "layouts/footer" %>
+    <br style="clear:both;" />
+  </div>
 
 </body>
 </html>
